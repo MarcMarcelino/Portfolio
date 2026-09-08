@@ -99,13 +99,13 @@
       <div class="mt-8 flex flex-wrap gap-3 text-sm">
         <a href="#projets" class="px-5 py-2.5 bg-amber text-ink font-medium rounded hover:bg-paper transition-colors">Voir les projets</a>
         <a href="#parcours" class="px-5 py-2.5 border border-line text-paper rounded hover:border-muted transition-colors">Mon parcours</a>
-        <a href="/assets/CV__AYITCHEDJI__Marc.pdf" download class="px-5 py-2.5 border border-line text-paper rounded hover:border-muted transition-colors">Télécharger le CV</a>
+        <a href="CV_Marc_AYITCHEDJI.pdf" download class="px-5 py-2.5 border border-line text-paper rounded hover:border-muted transition-colors">Télécharger le CV</a>
       </div>
     </div>
 
     <div class="bg-panel border border-line rounded-lg p-5">
       <div class="w-full aspect-square rounded-md overflow-hidden bg-panel2 mb-4">
-        <img src="assets/WhatsApp Image 2026-01-28 at 11.19.06 (1).jpeg" alt="Portrait de Marc Ayitchedji" class="w-full h-full object-cover">
+        <img src="assets/portrait.jpg" alt="Portrait de Marc Ayitchedji" class="w-full h-full object-cover">
       </div>
       <dl class="text-sm space-y-2">
         <div class="flex justify-between"><dt class="text-muted">Email</dt><dd><a href="mailto:ayitchedjimarc@gmail.com" class="hover:text-amber transition-colors">ayitchedjimarc@gmail.com</a></dd></div>
@@ -219,21 +219,11 @@
 
     <article class="reveal case-card case-cyber bg-panel rounded-r-lg p-6">
       <div class="font-mono text-xs text-green mb-2">cybersécurité</div>
-      <h3 class="font-display font-medium text-paper mb-2">Projet AEGIS — Audit incident TechSud</h3>
-      <p class="text-sm text-muted leading-relaxed mb-4">Audit d'un serveur compromis pour une entreprise fictive (TechSud SAS) : cartographie des vecteurs d'attaque, sécurisation en urgence (SSH, ufw, fail2ban) et rapport d'audit.</p>
+      <h3 class="font-display font-medium text-paper mb-2">NAS-01 — AEGIS/TechSud</h3>
+      <p class="text-sm text-muted leading-relaxed mb-4">Déploiement d'un composant NAS sur Proxmox / Debian 12, cas pratique cybersécurité pour une entreprise fictive.</p>
       <div class="flex flex-wrap gap-3 items-center text-sm">
         <a href="#" target="_blank" class="text-muted hover:text-paper underline decoration-line underline-offset-4">GitHub</a>
-        <button data-project="aegis" class="open-modal-btn ml-auto font-mono text-xs text-muted border border-line rounded px-3 py-1.5 hover:border-green hover:text-paper transition-colors">détail</button>
-      </div>
-    </article>
-
-    <article class="reveal case-card case-cyber bg-panel rounded-r-lg p-6">
-      <div class="font-mono text-xs text-green mb-2">cybersécurité</div>
-      <h3 class="font-display font-medium text-paper mb-2">Serveur NAS — TrueNAS Core</h3>
-      <p class="text-sm text-muted leading-relaxed mb-4">Déploiement d'un NAS complet sous TrueNAS Core sur Proxmox : pool RAID-Z, partages SMB, accès distant sécurisé via OpenVPN, snapshots automatiques.</p>
-      <div class="flex flex-wrap gap-3 items-center text-sm">
-        <a href="#" target="_blank" class="text-muted hover:text-paper underline decoration-line underline-offset-4">GitHub</a>
-        <button data-project="truenas" class="open-modal-btn ml-auto font-mono text-xs text-muted border border-line rounded px-3 py-1.5 hover:border-green hover:text-paper transition-colors">détail</button>
+        <button data-project="nas" class="open-modal-btn ml-auto font-mono text-xs text-muted border border-line rounded px-3 py-1.5 hover:border-green hover:text-paper transition-colors">détail</button>
       </div>
     </article>
 
@@ -247,25 +237,6 @@
       </div>
     </article>
 
-    <article class="reveal case-card case-dev bg-panel rounded-r-lg p-6 sm:col-span-2">
-      <div class="font-mono text-xs text-[#6FA8DC] mb-2">développement</div>
-      <h3 class="font-display font-medium text-paper mb-2">EndlessRunnerIPSSI</h3>
-      <p class="text-sm text-muted leading-relaxed mb-4">Endless runner façon Subway Surfers, développé en C# sous Unity. UI dynamique (TextMeshPro), scores sauvegardés (PlayerPrefs).</p>
-      <div class="flex flex-wrap gap-3 items-center text-sm">
-        <a href="https://github.com/MarcMarcelino/endless-runner-ipssi/blob/main/.gitignore" target="_blank" class="text-muted hover:text-paper underline decoration-line underline-offset-4">GitHub</a>
-        <a href="https://nolicemarc.itch.io/build-endless-runner-ipssi" target="_blank" class="text-muted hover:text-paper underline decoration-line underline-offset-4">Jouer en ligne</a>
-        <button data-project="unity" class="open-modal-btn ml-auto font-mono text-xs text-muted border border-line rounded px-3 py-1.5 hover:border-[#6FA8DC] hover:text-paper transition-colors">détail</button>
-      </div>
-    </article>
-  </div>
-</section>
-
-<!-- PROJETS PERSONNELS -->
-<section class="max-w-5xl mx-auto px-6 py-16 border-t border-line">
-  <h2 class="reveal font-display text-2xl font-semibold text-paper mb-2">Projets personnels</h2>
-  <p class="reveal text-muted mb-10">Réalisés de mon côté, en dehors des TP.</p>
-
-  <div class="grid sm:grid-cols-2 gap-4">
     <article class="reveal case-card case-dev bg-panel rounded-r-lg p-6">
       <div class="font-mono text-xs text-[#6FA8DC] mb-2">développement</div>
       <h3 class="font-display font-medium text-paper mb-2">Indicateur MQL5 — MetaTrader 5</h3>
@@ -275,8 +246,21 @@
         <button data-project="mql5" class="open-modal-btn ml-auto font-mono text-xs text-muted border border-line rounded px-3 py-1.5 hover:border-[#6FA8DC] hover:text-paper transition-colors">détail</button>
       </div>
     </article>
+
+    <article class="reveal case-card case-dev bg-panel rounded-r-lg p-6 sm:col-span-2">
+      <div class="font-mono text-xs text-[#6FA8DC] mb-2">développement</div>
+      <h3 class="font-display font-medium text-paper mb-2">EndlessRunnerIPSSI</h3>
+      <p class="text-sm text-muted leading-relaxed mb-4">Endless runner façon Subway Surfers, développé en C# sous Unity. UI dynamique (TextMeshPro), scores sauvegardés (PlayerPrefs).</p>
+      <div class="flex flex-wrap gap-3 items-center text-sm">
+        <a href="https://github.com/MarcMarcelino/endless-runner-ipssi" target="_blank" class="text-muted hover:text-paper underline decoration-line underline-offset-4">GitHub</a>
+        <a href="#" target="_blank" class="text-muted hover:text-paper underline decoration-line underline-offset-4">Jouer en ligne</a>
+        <button data-project="unity" class="open-modal-btn ml-auto font-mono text-xs text-muted border border-line rounded px-3 py-1.5 hover:border-[#6FA8DC] hover:text-paper transition-colors">détail</button>
+      </div>
+    </article>
   </div>
 </section>
+
+<!-- MODALE -->
 <div id="project-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4">
   <div id="modal-backdrop" class="absolute inset-0 bg-ink/80"></div>
   <div id="modal-panel" class="relative bg-panel border border-line rounded-lg max-w-xl w-full max-h-[85vh] overflow-y-auto shadow-2xl transform transition-all duration-300 scale-95 opacity-0">
@@ -284,7 +268,9 @@
     <div class="p-8">
       <div id="modal-tag" class="font-mono text-xs mb-3"></div>
       <h3 id="modal-title" class="font-display text-xl font-semibold text-paper mb-3"></h3>
-      <p id="modal-description" class="text-muted leading-relaxed mb-4 whitespace-pre-line"></p>
+      <p id="modal-description" class="text-muted leading-relaxed mb-4"></p>
+      <div id="modal-demo" class="text-sm bg-panel2 border border-line rounded-md p-4 mb-4 text-muted"></div>
+      <div id="modal-gallery" class="grid grid-cols-3 gap-2"></div>
     </div>
   </div>
 </div>
@@ -402,37 +388,38 @@
   const projects = {
     infra: {
       tag: 'infrastructure', color: 'text-amber',
-      title: 'Interopérabilité Windows / Linux',
-      description: "Problématique : faire communiquer et s'administrer mutuellement deux systèmes différents (Windows Server et Linux) au sein d'un même réseau d'entreprise. Objectif : intégrer une machine Linux dans un domaine Active Directory, mettre en place le partage de fichiers et l'administration inter-systèmes, puis sécuriser l'ensemble.\n\nManipulations : configuration IP statique et test de connectivité, installation du rôle AD DS et promotion en contrôleur de domaine, jonction de Linux au domaine (realm join — réussie côté machine, mais l'authentification de l'utilisateur AD sur Linux n'a pas abouti, erreur GSSAPI liée à une désynchronisation d'horloge Kerberos), configuration Samba (partage lecture/écriture + lecture seule pour un groupe dédié), connexion SSH Windows→Linux avec script PowerShell distant, script Bash avec ldapsearch pour interroger l'annuaire AD, automatisation cron (surveillance disque), sécurisation SSH par clé, et résolution de 3 pannes simulées (DNS, permissions Samba, service SSH arrêté).\n\nCe que ça m'a apporté : une meilleure compréhension de comment Windows et Linux communiquent réellement sur un même réseau, au-delà de la théorie. Le blocage sur l'authentification AD m'a surtout appris à diagnostiquer méthodiquement (logs, tickets Kerberos, DNS) plutôt qu'à réessayer au hasard.",
+      title: 'Infrastructure hybride Windows / Linux',
+      description: "Déploiement d'un Active Directory sous Windows Server 2022 (réplication, gestion centralisée des droits via GPO/AGDLP) et durcissement système : désactivation des services à risque (Telnet, VNC, vsftpd), sécurisation SSH, configuration pare-feu — conforme aux référentiels PSSI / ISO 27001.",
+      demo: "Démo : captures de la console Active Directory et de la configuration de durcissement (voir galerie).",
+      images: []
     },
-    aegis: {
+    nas: {
       tag: 'cybersécurité', color: 'text-green',
-      title: 'Projet AEGIS — Audit incident TechSud SAS',
-      description: "Problématique : le serveur principal d'une entreprise fictive (TechSud SAS) a présenté des signes de compromission — connexions SSH suspectes depuis une IP inconnue, processus inconnu consommant l'essentiel du CPU — nécessitant un audit en urgence. Objectif : auditer l'infrastructure, identifier les vecteurs d'attaque probables, sécuriser les systèmes et produire un rapport d'audit.\n\nManipulations : analyse du dossier de mission et cartographie des vecteurs d'attaque probables en groupe, déploiement d'une VM Debian 12 en réseau isolé, sécurisation SSH (clé, port personnalisé, root désactivé), configuration du pare-feu (ufw) et de fail2ban, vérification des permissions et gestion des utilisateurs, rédaction du rapport d'audit et soutenance avec démo.\n\nPoints non finalisés : le vecteur d'attaque exact n'a pas été formellement confirmé, et le script Python d'audit prévu n'a pas pu être terminé faute de temps.\n\nCe que ça m'a apporté : travailler dans l'urgence sur un incident simulé, en groupe, m'a rapproché des conditions réelles d'un poste en SOC — devoir prioriser (sécuriser d'abord, creuser l'origine ensuite) plutôt que tout faire parfaitement.",
-    },
-    truenas: {
-      tag: 'cybersécurité', color: 'text-green',
-      title: 'Serveur NAS avec TrueNAS',
-      description: "Problématique : besoin d'une solution de stockage réseau centralisée, avec partage de fichiers, gestion des utilisateurs, accès distant sécurisé et protection contre la perte de données. Objectif : déployer et configurer un serveur NAS complet.\n\nManipulations : installation de TrueNAS Core sur une VM Proxmox (4 disques de stockage), création d'un pool de stockage en RAID-Z, dataset « public » en partage SMB (lecture/écriture pour tous), dataset « utilisateurs » avec espace personnel par compte, accès distant sécurisé via OpenVPN (autorité de certification interne, certificats serveur/client, pare-feu et NAT), snapshots manuels et automatiques (toutes les 5 minutes), testés par restauration de fichiers supprimés.\n\nCe que ça m'a apporté : au-delà de l'installation, la compréhension du « pourquoi » derrière chaque choix (RAID-Z plutôt que stripe pour ne pas perdre les données sur une panne disque, snapshots pour se protéger d'une suppression accidentelle) — savoir justifier une configuration, pas juste suivre un tutoriel.",
-      
+      title: 'NAS-01 — AEGIS/TechSud',
+      description: "Déploiement d'un composant NAS sur Proxmox / Debian 12, dans le cadre d'un cas pratique cybersécurité pour une entreprise fictive.",
+      demo: "Démo : captures du dashboard Proxmox et de la configuration réseau. Service non exposé publiquement pour des raisons de sécurité.",
+      images: []
     },
     pentest: {
       tag: 'cybersécurité', color: 'text-green',
       title: 'Pentest — Metasploitable2 / NovaTech',
-      description: "Problématique : évaluer la sécurité d'un système via un test d'intrusion, pour une entreprise fictive (NovaTech). Objectif : identifier et exploiter les vulnérabilités d'une machine cible, puis documenter les failles et sécuriser le système.\n\nManipulations : scan réseau avec nmap, brute-force sur le service VNC, exploitation de la faille Samba (usermap_script) et du backdoor vsftpd via Metasploit, puis durcissement post-exploitation.\n\nDurcissement réalisé : mise à jour du système pour corriger les failles logicielles et réduire la surface d'attaque ; désactivation des services à risque comme telnet et rlogin (données transmises sans chiffrement) et du service vsftpd (porte dérobée cachée) ; sécurisation SSH par verrouillage du compte root (sudo passwd -l), empêchant toute connexion avec ce compte même en cas de mot de passe compromis ; changement des mots de passe par défaut (ex. « password », « msfadmin », présents dans les wordlists) au profit de mots de passe forts (12 caractères minimum) ; configuration d'un pare-feu, sécurisation de MySQL/PostgreSQL et désactivation de VNC. Contribution à une partie du document PSSI de NovaTech.\n\nCe que ça m'a apporté : comprendre la sécurité « des deux côtés » — attaquer une machine pour comprendre ses failles, puis la corriger, donne une vision concrète de ce qu'un service mal configuré représente comme risque réel. Le durcissement a réduit significativement la surface d'attaque, sans pour autant rendre le système totalement sécurisé — une nuance importante à formaliser dans un vrai rapport.",
-      
+      description: "Test d'intrusion complet sur Metasploitable2 : reconnaissance nmap, brute-force VNC, exploitation Samba (usermap_script) et backdoor vsftpd via Metasploit. Contribution à un document PSSI pour une entreprise fictive.",
+      demo: "Démo : captures des étapes clés (scan, exploitation, preuve d'accès). Environnement isolé, à but pédagogique uniquement.",
+      images: []
     },
     mql5: {
       tag: 'développement', color: 'text-[#6FA8DC]',
       title: 'Indicateur MQL5 — MetaTrader 5',
       description: "Indicateur de signaux combinant EMA, RSI et ATR, détection de patterns sur pivots, et hook optionnel de validation par IA via WebRequest.",
-      
+      demo: "Démo : capture de l'indicateur sur un graphique MetaTrader 5, testé via le Strategy Tester (historique simulé).",
+      images: []
     },
     unity: {
       tag: 'développement', color: 'text-[#6FA8DC]',
       title: 'EndlessRunnerIPSSI',
       description: "Endless runner façon Subway Surfers, développé en C# sous Unity. UI dynamique avec TextMeshPro, sauvegarde des scores via PlayerPrefs.",
-      
+      demo: "Démo : jouable directement dans le navigateur via le lien « Jouer en ligne » (build WebGL hébergé sur itch.io).",
+      images: []
     }
   };
 
@@ -441,6 +428,8 @@
   const modalTag = document.getElementById('modal-tag');
   const modalTitle = document.getElementById('modal-title');
   const modalDescription = document.getElementById('modal-description');
+  const modalDemo = document.getElementById('modal-demo');
+  const modalGallery = document.getElementById('modal-gallery');
 
   function openModal(key) {
     const p = projects[key];
@@ -449,6 +438,10 @@
     modalTag.className = 'font-mono text-xs mb-3 ' + p.color;
     modalTitle.textContent = p.title;
     modalDescription.textContent = p.description;
+    modalDemo.textContent = p.demo;
+    modalGallery.innerHTML = p.images.length === 0
+      ? '<p class="col-span-3 text-xs text-muted italic">Captures à ajouter dans assets/screenshots/</p>'
+      : p.images.map(src => `<img src="${src}" class="w-full h-24 object-cover rounded border border-line">`).join('');
     modal.classList.add('is-open');
     document.body.style.overflow = 'hidden';
     requestAnimationFrame(() => {
